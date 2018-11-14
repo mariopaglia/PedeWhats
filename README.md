@@ -39,13 +39,13 @@ Vamos desmembrá-la para entender melhor o funcionamento:
 
 #### Primeira parte
 
-https://api.whatsapp.com/send?**phone=seunumerodetelefone**
+https:// api.whatsapp.com/send? **phone=seunumerodetelefone**
 
 A primeira parte, precisará conter o número do telefone, com código do país + DDD + telefone, ficando no formato à seguir: 5511999999999
 
 #### Segunda parte
 
-https://api.whatsapp.com/send?phone=seunumerodetelefone&**text=sua%20mensagem**
+https:// api.whatsapp.com/send? phone=seunumerodetelefone& **text=sua%20mensagem**
 
 Na segunda parte, temos a mensagem que queremos enviar ao restaurante, note que não aceita espaços, por este motivo temos que codificar com "%20", abaixo, segue link de um conversor online.
 
