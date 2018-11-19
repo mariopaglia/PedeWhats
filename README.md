@@ -17,7 +17,7 @@ O projeto "PedeWhats" visa a solicitação de comidas através do Whatsapp, dire
 
 O projeto é bem simples, uma página com um formulário na qual você preencherá o telefone do restaurante (necessário que o mesmo preste atendimento via Whatsapp), informará sua comida preferida, também alguns itens que deseja remover ou acrescentar em seu pedido, ao final poderá revisar seu pedido e mandar diretamente para o Whatsapp do restaurante através da plataforma. Simples não?
 
-**ATENÇÃO: EM BREVE LINK DA APLICAÇÃO.**  
+**Link da aplicação: [https://agenciah1code.github.io/PedeWhats/](https://agenciah1code.github.io/PedeWhats/)**
 
 # Aos desenvolvedores e colaboradores
 
