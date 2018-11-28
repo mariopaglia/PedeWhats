@@ -1,0 +1,54 @@
+﻿.wrapper{
+    position: relative;
+
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0 15px;
+
+    background-image: url(../img/bg-wrapper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
+.wrapper:before{
+    content: "";
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    background: rgba(0,0,0,.8);
+}
+
+.content{
+    position: relative;
+    z-index: 5;
+}
+
+.page-title{
+    color: white;
+}
+
+.page-title + hr{
+    border-color: white;
+}
+
+.form-group label{
+    color: white;
+}
+
+@media screen and (min-width: 768px){
+    .wrapper{
+        padding: 0;
+    }
+}
