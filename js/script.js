@@ -13,10 +13,19 @@ $(document).ready(function () {
             $('#sabor-inteiro-label, #sabor-inteiro').show();
         }
     });
+
+    var lenghtValidator = function (val) {
+        return val.replace(/\D/g, '').length === 11 ? '(00) 00000-0000' : '(00) 0000-00009';
+    },
+    maskOptions = {
+        onKeyPress: function(val, e, field, options) {
+            field.mask(lenghtValidator.apply({}, arguments), options);
+        }
+    };
+
+    /**
+     * Realiza a máscara no campo "telefone da pizzaria"
+     */
+
+    $('#telefone').mask('00000000000');
 });
-
-/**
- * Realiza a máscara no campo "telefone da pizzaria"
- */
-
-$('#telefone').mask('00000000000');
