@@ -23,5 +23,9 @@ $(document).ready(function () {
         }
     };
 
-    $('#telefone').mask(lenghtValidator, maskOptions);
+    /**
+     * Realiza a máscara no campo "telefone da pizzaria"
+     */
+
+    $('#telefone').mask('00000000000');
 });
