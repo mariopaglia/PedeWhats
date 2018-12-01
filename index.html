@@ -20,12 +20,18 @@
 </head>
 
 <body>
+    
+
+
+
+
+
     <div class="wrapper">
         <div class="content">
             <h1 class="page-title">Faça seu pedido abaixo:</h1>
             <hr>
 
-            <form method="GET">
+            <form action="php/send.php" method="POST">
                 <div class="form-group">
                     <label for="nome">Seu nome</label>
                     <input type="text" class="form-control" id="nome" name="nome" required>
@@ -33,16 +39,18 @@
 
                 <div class="form-group">
                     <label for="telefone">Telefone da pizzaria</label>
-                    <input type="tel" class="form-control" id="telefone" name="telefone" placeholder="DDD + Telefone (Somente números)" required data-mask="(00) 0000-0000">
+                    <input type="tel" class="form-control" id="telefone" name="telefone" placeholder="DDD + Telefone (Somente números)" required data-mask="(00) 00000-0000">
                 </div>
 
                 <div class="form-group">
                     <label for="mais-sabor">A pizza tem mais de um sabor?</label> <br>
                     <div class="form-check">
+
                         <input type="radio" name="mais-sabor" class="form-check-input" value="sim">
                         <label class="form-check-label">
                             Sim
                         </label>
+
                     </div>
                     <div class="form-check">
                         <input type="radio" name="mais-sabor" class="form-check-input" value="não">
@@ -54,8 +62,8 @@
 
                 <div class="form-group">
                     <label id="metade1" for="metade1">Qual o sabor da primeira metade?</label>
+                   
                     <select name="metade1" id="metade1" class="form-control">
-                        <option value=""></option>
                         <option value="sabor1">sabor1</option>
                         <option value="sabor2">sabor2</option>
                         <option value="sabor3">sabor3</option>
@@ -67,12 +75,13 @@
                         <option value="sabor9">sabor9</option>
                         <option value="sabor10">sabor10</option>
                     </select>
+
                 </div>
 
                 <div class="form-group">
                     <label id="metade2" for="metade2">Qual o sabor da segunda metade?</label>
+
                     <select name="metade2" id="metade2" class="form-control">
-                        <option value=""></option>
                         <option value="sabor1">sabor1</option>
                         <option value="sabor2">sabor2</option>
                         <option value="sabor3">sabor3</option>
@@ -84,10 +93,12 @@
                         <option value="sabor9">sabor9</option>
                         <option value="sabor10">sabor10</option>
                     </select>
+
                 </div>
 
                 <div class="form-group">
                     <label id="sabor-inteiro-label" for="sabor-inteiro">Selecione o sabor da pizza inteira</label>
+
                     <select name="sabor-inteiro" id="sabor-inteiro" class="form-control">
                         <option value=""></option>
                         <option value="sabor1">sabor1</option>
@@ -101,9 +112,10 @@
                         <option value="sabor9">sabor9</option>
                         <option value="sabor10">sabor10</option>
                     </select>
+                    
                 </div>
                 
-                <button type="submit" class="btn btn-primary btn-block">Enviar</button> <br> <br>
+                <input type="submit" class="btn btn-primary btn-block" value="Enviar"><br> <br>
             </form>
         </div>
     </div>
