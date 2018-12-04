@@ -9,8 +9,8 @@
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-flow: row wrap;
-            flex-flow: row wrap;
+        -ms-flex-flow: column;
+            flex-flow: column;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -36,16 +36,66 @@
     width: 100%;
     height: 100%;
 
-    background: rgba(0,0,0,.8);
+    /*background: rgba(0,0,0,.8);*/
+    background: #333333;
+	filter: alpha(opacity=90);
+	opacity: .8;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
 }
 
 .content{
     position: relative;
     z-index: 5;
+    background-color: rgba(147, 112, 77, 0.2);
+    padding: 25px;
+    box-shadow: 0 0 10px rgba(0,0,0,.5),
+                0 5px 10px rgba(0,0,0,.35);
+}
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:100%;
+    z-index: -2;
+    background-image: url(../img/bg-content.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+	opacity: .4;
+}
+.background::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:100%;
+    z-index: -1;
+    background-color:rgba(0,0,0,.9)
+}
+.btn-primary, .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background: #599441;
+    border-color: #599441;
+}
+.btn-primary:hover {
+    background: #4a8334;
+    border-color: #599441;
+}
+.btn-primary:focus, .btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem #305720b4;
+}
+
+.attrib {
+    margin-top: 1em;
+    color: #fff;
 }
 
 .page-title{
     color: white;
+    background: #93704D;
+    padding: 0 20px 5px 20px;
+    transform: rotate(-1deg);
 }
 
 .page-title + hr{
