@@ -4,7 +4,7 @@
 
 $(document).ready(function () {
     $('[name="pagamento"]').first().prop('checked', true);
-    $('#dados-cdc').hide();
+    
     $('#metade1, #metade2').hide();
     $('input[type=radio][name=mais-sabor]').change(function () {
         if (this.value == 'sim') {
@@ -30,15 +30,5 @@ $(document).ready(function () {
      */
 
     $('#telefone').mask('00000000000');
-    $('#cdc').mask('0000.0000.0000.0000');
-    $('#cdc-expiration').mask('99/99',{placeholder:"mm/yy"});
-    $('#cdc-cvv').mask('999');
 
-    $('input[type=radio][name=pagamento]').change(function (event) {
-        if(event.target.value === 'cdc') {
-            $('#dados-cdc').show();
-        } else {
-            $('#dados-cdc').hide();
-        }
-    });
 });
