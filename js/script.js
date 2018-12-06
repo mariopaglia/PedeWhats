@@ -3,6 +3,8 @@
  */
 
 $(document).ready(function () {
+    $('[name="pagamento"]').first().prop('checked', true);
+    
     $('#metade1, #metade2').hide();
     $('input[type=radio][name=mais-sabor]').change(function () {
         if (this.value == 'sim') {
@@ -28,4 +30,5 @@ $(document).ready(function () {
      */
 
     $('#telefone').mask('00000000000');
+
 });
