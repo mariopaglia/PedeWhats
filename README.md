@@ -13,21 +13,37 @@ O projeto "PedeWhats" visa a solicitação de comidas através do Whatsapp, dire
 [![GitHub contributors](https://img.shields.io/github/contributors/agenciah1code/PedeWhats.svg)](https://github.com/agenciah1code/PedeWhats/graphs/contributors)
 [![GitHub license](https://img.shields.io/github/license/agenciah1code/PedeWhats.svg)](https://github.com/agenciah1code/PedeWhats/blob/master/LICENSE)
 
-# Como usar?
+## Como usar?
 
 O projeto é bem simples, uma página com um formulário na qual você preencherá o telefone do restaurante (necessário que o mesmo preste atendimento via Whatsapp), informará sua comida preferida, também alguns itens que deseja remover ou acrescentar em seu pedido, ao final poderá revisar seu pedido e mandar diretamente para o Whatsapp do restaurante através da plataforma. Simples não?
 
-**Link da aplicação: [https://agenciah1code.github.io/PedeWhats/](https://agenciah1code.github.io/PedeWhats/)**
+#### **Link da aplicação: [https://agenciah1code.github.io/PedeWhats/](https://agenciah1code.github.io/PedeWhats/)**
 
 # Aos desenvolvedores e colaboradores
 
 À partir daqui, segue informações técnicas sobre o projeto, como colaborar, desenvolver, utilização da API, etc.
 
+## Hierárquia de arquivos e diretórios
+
+O projeto deverá seguir a seguinte hierárquia de diretórios:
+
+```
+|- css/  
+|- fonts/  
+|- functions/  
+|- img/
+|- js/
+|- lib/
+|  index.html
+|  LICENSE
+|  README.md
+```
+
 ## Como colaborar?
 
-Para colaborar com o projeto é simples, basta realizar um [Fork](https://github.com/agenciah1code/PedeWhats) do projeto, realizar modificações, correções, implementações, etc, e depois nos enviar um [Pull Request.](https://github.com/agenciah1code/PedeWhats/pulls)
+Para colaborar com o projeto é simples, basta realizar um [Fork](https://github.com/agenciah1code/PedeWhats/fork) do projeto, realizar modificações, correções, implementações, etc, e depois nos enviar um [Pull Request.](https://github.com/agenciah1code/PedeWhats/pulls)
 
-Não tem experiencia em desenvolvimento? Não tem problema, deixe seu comentário/sugestão diretamente em nossas ["Issues".](https://github.com/agenciah1code/PedeWhats/issues)
+Não tem experiencia em desenvolvimento? Não tem problema, deixe seu comentário/sugestão diretamente em nossas [Issues.](https://github.com/agenciah1code/PedeWhats/issues)
 
 ## Utilização da API
 
@@ -53,24 +69,4 @@ Acesse [https://r12a.github.io/app-conversion/](https://r12a.github.io/app-conve
 
 ## Cronograma de desenvolvimento
 
-O projeto inicial terá como base o pedido de "Pizzas" em sua versão 1.0, nas versões seguintes, serão implentadas novas opções de comidas como por exemplo:
-
-- Comida japonesa
-- Comida chinesa
-- Comida tailandesa
-- Lanches
-- Salgados
-- E muito mais...
-
-## Hierárquia de diretórios
-
-O projeto deverá seguir a seguinte hierárquia de diretórios:
-
---css  
---fonts  
---functions  
---img  
---js  
---lib
-
-Além também dos arquivos "index.php", LICENSE e README.md que ficarão para fora destes diretórios.
+De forma a facilitar com que novos recursos sejam implementados, pendências para o projeto serão criados diretamente nas [Issues](https://github.com/agenciah1code/PedeWhats/issues), dessa forma, tanto administradores do projeto, colaboradores ou não-colaboradores, poderão de forma fácil criar uma nova Issue solicitando melhoria, correções, etc.
