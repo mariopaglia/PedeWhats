@@ -29,6 +29,6 @@ $(document).ready(function () {
      * Realiza a máscara no campo "telefone da pizzaria"
      */
 
-    $('#telefone').mask('00000000000');
+    $('#telefone').mask('0000000000000');
 
 });
