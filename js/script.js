@@ -1,4 +1,10 @@
 ﻿/**
+* Importa função para "pegar" dados do formulário após envio
+*/
+import Pedido from './pedido.js';
+
+
+/**
  * Verifica se a pizza tem mais de um sabor, se sim, esconde outros campos, se não, libera os campos de "metade 1" e "metade 2"
  */
 
@@ -6,13 +12,13 @@ $(document).ready(function () {
     $('[name="pagamento"]').first().prop('checked', true);
     
     $('#metade1, #metade2').hide();
-    $('input[type=radio][name=mais-sabor]').change(function () {
+    $('input[type=radio][name=mais_sabor]').change(function () {
         if (this.value == 'sim') {
-            $('#sabor-inteiro-label, #sabor-inteiro').hide();
+            $('#sabor-inteiro-label, #sabor_inteiro').hide();
             $('#metade1, #metade2').show();
         } else if (this.value == 'não') {
             $("#metade1, #metade2").hide();
-            $('#sabor-inteiro-label, #sabor-inteiro').show();
+            $('#sabor-inteiro-label, #sabor_inteiro').show();
         }
     });
 
@@ -31,4 +37,16 @@ $(document).ready(function () {
 
     $('#telefone').mask('0000000000000');
 
+});
+
+/**
+*   Eventos do formulário
+*/
+
+$('#formularioPedirWhats').on('submit', function(e){
+    e.preventDefault(); // previne comportamento padrão fo form
+    let pedido = new Pedido($(this)); // Instancia a classe Pedido
+    /**
+    * Todo o processo do pedidos é efetuado no momento que instaciamos a classe. (possível melhoria)
+    */
 });
