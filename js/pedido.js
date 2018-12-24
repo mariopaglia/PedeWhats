@@ -14,7 +14,7 @@ export default class Pedido {
 
 		this._apiWhats = 'https://api.whatsapp.com/send'; // Api WhatsApp
 		this.texto = this.getText(); // retorna texto codificado
-		this._url = `${this._apiWhats}?phone=${this.telefone}&text=${this.texto}`;
+		this._url = `${this._apiWhats}?phone=55${this.telefone}&text=${this.texto}`;
 
 		this.sendMessage(this._url);
 		Object.freeze(this);
@@ -38,7 +38,7 @@ export default class Pedido {
 		* Aqui deverá ser montada a estrutura do texto que será enviado ao restaurante/pizzaria.
 		*
 		*/
-		let text = 'Texto genério com acentuação!';
+		let text = 'Texto genérico com acentuação!';
 		return encodeURIComponent(text); // retorna texto já codificado para url
 	}
 
