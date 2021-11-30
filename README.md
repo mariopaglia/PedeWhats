@@ -1,6 +1,6 @@
 # PedeWhats - O que é?
 
-O projeto "PedeWhats" visa a solicitação de comidas através do Whatsapp, diretamente para o restaurante (caso tenha atendimento via Whatsapp). O projeto é desenvolvido e mantido por membros do grupo no Whatsapp Front-End Brasil [Link de acesso ao grupo.](https://chat.whatsapp.com/F1CVS6duSzo9yPWVPz9SuW)
+O projeto "PedeWhats" visa a solicitação de comidas através do Whatsapp, diretamente para o restaurante (caso tenha atendimento via Whatsapp).
 
 ## Informações sobre o projeto  
 
