@@ -4,20 +4,20 @@ O projeto "PedeWhats" visa a solicitação de comidas através do Whatsapp, dire
 
 ## Informações sobre o projeto  
 
-[![Release](https://img.shields.io/github/release/agenciah1code/PedeWhats.svg?label=version)](https://github.com/agenciah1code/PedeWhats/releases/latest)
-[![GitHub Release Date](https://img.shields.io/github/release-date/agenciah1code/PedeWhats.svg)](https://github.com/agenciah1code/PedeWhats/releases/latest)
-![GitHub top language](https://img.shields.io/github/languages/top/agenciah1code/PedeWhats.svg)
-[![GitHub issues](https://img.shields.io/github/issues/agenciah1code/PedeWhats.svg)](https://github.com/agenciah1code/PedeWhats/issues)
-[![GitHub forks](https://img.shields.io/github/forks/agenciah1code/PedeWhats.svg)](https://github.com/agenciah1code/PedeWhats/network)
-[![GitHub stars](https://img.shields.io/github/stars/agenciah1code/PedeWhats.svg)](https://github.com/agenciah1code/PedeWhats/stargazers)
-[![GitHub contributors](https://img.shields.io/github/contributors/agenciah1code/PedeWhats.svg)](https://github.com/agenciah1code/PedeWhats/graphs/contributors)
-[![GitHub license](https://img.shields.io/github/license/agenciah1code/PedeWhats.svg)](https://github.com/agenciah1code/PedeWhats/blob/master/LICENSE)
+[![Release](https://img.shields.io/github/release/mariopaglia/PedeWhats.svg?label=version)](https://github.com/mariopaglia/PedeWhats/releases/latest)
+[![GitHub Release Date](https://img.shields.io/github/release-date/mariopaglia/PedeWhats.svg)](https://github.com/mariopaglia/PedeWhats/releases/latest)
+![GitHub top language](https://img.shields.io/github/languages/top/mariopaglia/PedeWhats.svg)
+[![GitHub issues](https://img.shields.io/github/issues/mariopaglia/PedeWhats.svg)](https://github.com/mariopaglia/PedeWhats/issues)
+[![GitHub forks](https://img.shields.io/github/forks/mariopaglia/PedeWhats.svg)](https://github.com/mariopaglia/PedeWhats/network)
+[![GitHub stars](https://img.shields.io/github/stars/mariopaglia/PedeWhats.svg)](https://github.com/mariopaglia/PedeWhats/stargazers)
+[![GitHub contributors](https://img.shields.io/github/contributors/mariopaglia/PedeWhats.svg)](https://github.com/mariopaglia/PedeWhats/graphs/contributors)
+[![GitHub license](https://img.shields.io/github/license/mariopaglia/PedeWhats.svg)](https://github.com/mariopaglia/PedeWhats/blob/master/LICENSE)
 
 ## Como usar?
 
 O projeto é bem simples, uma página com um formulário na qual você preencherá o telefone do restaurante (necessário que o mesmo preste atendimento via Whatsapp), informará sua comida preferida, também alguns itens que deseja remover ou acrescentar em seu pedido, ao final poderá revisar seu pedido e mandar diretamente para o Whatsapp do restaurante através da plataforma. Simples não?
 
-#### **Link da aplicação: [https://agenciah1code.github.io/PedeWhats/](https://agenciah1code.github.io/PedeWhats/)**
+#### **Link da aplicação: [https://mariopaglia.github.io/PedeWhats/](https://mariopaglia.github.io/PedeWhats/)**
 
 # Aos desenvolvedores e colaboradores
 
@@ -41,9 +41,9 @@ O projeto deverá seguir a seguinte hierárquia de diretórios:
 
 ## Como colaborar?
 
-Para colaborar com o projeto é simples, basta realizar um [Fork](https://github.com/agenciah1code/PedeWhats/fork) do projeto, realizar modificações, correções, implementações, etc, e depois nos enviar um [Pull Request.](https://github.com/agenciah1code/PedeWhats/pulls)
+Para colaborar com o projeto é simples, basta realizar um [Fork](https://github.com/mariopaglia/PedeWhats/fork) do projeto, realizar modificações, correções, implementações, etc, e depois nos enviar um [Pull Request.](https://github.com/mariopaglia/PedeWhats/pulls)
 
-Não tem experiencia em desenvolvimento? Não tem problema, deixe seu comentário/sugestão diretamente em nossas [Issues.](https://github.com/agenciah1code/PedeWhats/issues)
+Não tem experiencia em desenvolvimento? Não tem problema, deixe seu comentário/sugestão diretamente em nossas [Issues.](https://github.com/mariopaglia/PedeWhats/issues)
 
 ## Utilização da API
 
@@ -69,4 +69,4 @@ Acesse [https://r12a.github.io/app-conversion/](https://r12a.github.io/app-conve
 
 ## Cronograma de desenvolvimento
 
-De forma a facilitar com que novos recursos sejam implementados, pendências para o projeto serão criados diretamente nas [Issues](https://github.com/agenciah1code/PedeWhats/issues), dessa forma, tanto administradores do projeto, colaboradores ou não-colaboradores, poderão de forma fácil criar uma nova Issue solicitando melhoria, correções, etc.
+De forma a facilitar com que novos recursos sejam implementados, pendências para o projeto serão criados diretamente nas [Issues](https://github.com/mariopaglia/PedeWhats/issues), dessa forma, tanto administradores do projeto, colaboradores ou não-colaboradores, poderão de forma fácil criar uma nova Issue solicitando melhoria, correções, etc.
