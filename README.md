@@ -15,58 +15,32 @@ O projeto "PedeWhats" visa a solicitação de comidas através do Whatsapp, dire
 
 ## Como usar?
 
-O projeto é bem simples, uma página com um formulário na qual você preencherá o telefone do restaurante (necessário que o mesmo preste atendimento via Whatsapp), informará sua comida preferida, também alguns itens que deseja remover ou acrescentar em seu pedido, ao final poderá revisar seu pedido e mandar diretamente para o Whatsapp do restaurante através da plataforma. Simples não?
+O projeto consiste em uma página com um formulário para que você possa preencher as informações do seu pedido de comida. É necessário informar o telefone do restaurante que presta atendimento via WhatsApp, selecionar a comida preferida, adicionar ou excluir itens e revisar o pedido antes de enviá-lo diretamente para o WhatsApp do restaurante, tudo através da plataforma. Fácil e prático, não é mesmo?
 
-#### **Link da aplicação: [https://mariopaglia.github.io/PedeWhats/](https://mariopaglia.github.io/PedeWhats/)**
+#### **Acesse a aplicação em: [https://mariopaglia.github.io/PedeWhats/](https://mariopaglia.github.io/PedeWhats/)**
 
 # Aos desenvolvedores e colaboradores
 
-À partir daqui, segue informações técnicas sobre o projeto, como colaborar, desenvolver, utilização da API, etc.
-
-## Hierárquia de arquivos e diretórios
-
-O projeto deverá seguir a seguinte hierárquia de diretórios:
-
-```
-|- css/  
-|- fonts/  
-|- functions/  
-|- img/
-|- js/
-|- lib/
-|  index.html
-|  LICENSE
-|  README.md
-```
+A seguir, você encontrará informações técnicas sobre o projeto, incluindo instruções para colaborar, desenvolver, usar a API, entre outras coisas.
 
 ## Como colaborar?
 
-Para colaborar com o projeto é simples, basta realizar um [Fork](https://github.com/mariopaglia/PedeWhats/fork) do projeto, realizar modificações, correções, implementações, etc, e depois nos enviar um [Pull Request.](https://github.com/mariopaglia/PedeWhats/pulls)
+Para contribuir com o projeto, basta realizar um [Fork](https://github.com/mariopaglia/PedeWhats/fork) do repositório e realizar as modificações, correções e implementações que desejar. Em seguida, basta enviar um [Pull request](https://github.com/mariopaglia/PedeWhats/pulls).
 
-Não tem experiencia em desenvolvimento? Não tem problema, deixe seu comentário/sugestão diretamente em nossas [Issues.](https://github.com/mariopaglia/PedeWhats/issues)
+Se você não tem experiência em desenvolvimento, não se preocupe. Você ainda pode participar deixando sugestões ou comentários nas [Issues](https://github.com/mariopaglia/PedeWhats/issues).
 
 ## Utilização da API
 
-A API gratuita do Whatsapp é bem simples de ser usada, veja abaixo com mais detalhes como ela funciona e como deverá ser implementada no projeto:
+A API gratuita do WhatsApp é simples de ser usada. Veja como ela funciona:
 
-**https://api.whatsapp.com/send?phone=seunumerodetelefone&text=sua%20mensagem**
+https://api.whatsapp.com/send?phone=CÓDIGO_PAÍS+DDD+NÚMERO_DE_TELEFONE&text=SUA_MENSAGEM_CODIFICADA
 
-Vamos desmembrá-la para entender melhor o funcionamento:
+Exemplo: https://api.whatsapp.com/send?phone=5511999999999&text=Sua%20mensagem
 
-#### Primeira parte
-
-https:// api.whatsapp.com/send? **phone=seunumerodetelefone**
-
-A primeira parte, precisará conter o número do telefone, com código do país + DDD + telefone, ficando no formato à seguir: 5511999999999
-
-#### Segunda parte
-
-https:// api.whatsapp.com/send? phone=seunumerodetelefone& **text=sua%20mensagem**
-
-Na segunda parte, temos a mensagem que queremos enviar ao restaurante, note que não aceita espaços, por este motivo temos que codificar com "%20", abaixo, segue link de um conversor online.
-
-Acesse [https://r12a.github.io/app-conversion/](https://r12a.github.io/app-conversion/), escreva o texto no primeiro campo e depois pegue o resultado do campo "Percent encoding for URIs"
+Onde:
+- "CÓDIGO_PAÍS+DDD+NÚMERO_DE_TELEFONE" deve conter o número de telefone completo, com o código do país, DDD e número.
+- "SUA_MENSAGEM_CODIFICADA" é a mensagem que você deseja enviar, codificada para retirar os espaços (encodeURI).
 
 ## Cronograma de desenvolvimento
 
-De forma a facilitar com que novos recursos sejam implementados, pendências para o projeto serão criados diretamente nas [Issues](https://github.com/mariopaglia/PedeWhats/issues), dessa forma, tanto administradores do projeto, colaboradores ou não-colaboradores, poderão de forma fácil criar uma nova Issue solicitando melhoria, correções, etc.
+Para tornar a implementação de novos recursos mais fácil, as pendências para o projeto serão registradas diretamente nas [Issues do projeto](https://github.com/mariopaglia/PedeWhats/issues). Dessa forma, tanto administradores, colaboradores quanto pessoas externas ao projeto poderão criar facilmente uma nova Issue para solicitar melhorias, correções, etc.
