@@ -2,7 +2,7 @@
 
 O projeto "PedeWhats" visa a solicitação de comidas através do Whatsapp, diretamente para o restaurante (caso tenha atendimento via Whatsapp).
 
-## Informações sobre o projeto  
+## Informações sobre o projeto
 
 [![Release](https://img.shields.io/github/release/mariopaglia/PedeWhats.svg?label=version)](https://github.com/mariopaglia/PedeWhats/releases/latest)
 [![GitHub Release Date](https://img.shields.io/github/release-date/mariopaglia/PedeWhats.svg)](https://github.com/mariopaglia/PedeWhats/releases/latest)
@@ -17,7 +17,7 @@ O projeto "PedeWhats" visa a solicitação de comidas através do Whatsapp, dire
 
 O projeto consiste em uma página com um formulário para que você possa preencher as informações do seu pedido de comida. É necessário informar o telefone do restaurante que presta atendimento via WhatsApp, selecionar a comida preferida, adicionar ou excluir itens e revisar o pedido antes de enviá-lo diretamente para o WhatsApp do restaurante, tudo através da plataforma. Fácil e prático, não é mesmo?
 
-#### **Acesse a aplicação em: [https://mariopaglia.github.io/PedeWhats/](https://mariopaglia.github.io/PedeWhats/)**
+#### **Acesse a aplicação em: [https://pedewhats.vercel.app/](https://pedewhats.vercel.app/)**
 
 # Aos desenvolvedores e colaboradores
 
@@ -38,6 +38,7 @@ https://api.whatsapp.com/send?phone=CÓDIGO_PAÍS+DDD+NÚMERO_DE_TELEFONE&text=S
 Exemplo: https://api.whatsapp.com/send?phone=5511999999999&text=Sua%20mensagem
 
 Onde:
+
 - "CÓDIGO_PAÍS+DDD+NÚMERO_DE_TELEFONE" deve conter o número de telefone completo, com o código do país, DDD e número.
 - "SUA_MENSAGEM_CODIFICADA" é a mensagem que você deseja enviar, codificada para retirar os espaços (encodeURI).
 
