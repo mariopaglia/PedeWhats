@@ -1,5 +1,4 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-exec >/dev/tty 2>&1
-npx lint-staged
+exec >/dev/tty 2>&1 && npx lint-staged
