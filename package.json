@@ -12,6 +12,11 @@
     "fakeserver": "yarn json-server --watch ./src/pages/api/mock.json --port 3333",
     "postinstall": "husky install"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
       "yarn format",
