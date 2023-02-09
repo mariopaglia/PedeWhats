@@ -73,11 +73,9 @@ const HomePage = (): JSX.Element => {
           </button>
         </FormWrapper>
         <Copywright>
-          <p>
-            <a href='https://github.com/mariopaglia/PedeWhats' target='_blank' rel='noreferrer'>
-              &copy; PedeWhats - {new Date().getFullYear()}
-            </a>
-          </p>
+          <a href='https://github.com/mariopaglia/PedeWhats' target='_blank' rel='noreferrer'>
+            &copy; PedeWhats - {new Date().getFullYear()}
+          </a>
         </Copywright>
       </Container>
     </>
